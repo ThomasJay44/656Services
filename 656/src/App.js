@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import Partners from "./pages/Partners";
 import Contact from "./pages/Contact";
 import Credit from "./pages/Credit";
+
+import "./App.css";
 // import Header from "./components/Header";
 // import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <Router>
       {/* <Header /> */}
@@ -36,5 +38,5 @@ function App() {
   );
 }
 
-export default App;
+
 
