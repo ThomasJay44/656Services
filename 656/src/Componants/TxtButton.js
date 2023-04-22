@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const TextButton = () => {
     const recipient = '9733037756';
